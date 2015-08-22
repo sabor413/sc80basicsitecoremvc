@@ -1,0 +1,78 @@
+﻿@{
+    Layout = null;
+}
+@*@using Sitecore.Mvc;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <h2>SubmitComment</h2>
+    </div>
+</body>
+</html>*@
+
+@using Sitecore.Mvc.Presentation;
+@using Sitecore.Mvc;
+@model sc80basicsitecoremvc.Models.CommentForm
+
+<style type="text/css">
+    FORM.contactForm {
+    }
+
+        FORM.contactForm DIV.formField LABEL {
+            display: inline-block;
+            float: left;
+            width: 100px;
+        }
+
+        FORM.contactForm DIV.validation-summary-errors UL {
+            margin-left: 8px;
+            padding-left: 8px;
+        }
+
+            FORM.contactForm DIV.validation-summary-errors UL LI {
+                list-style-type: disc;
+            }
+</style>
+
+
+@using (Html.BeginRouteForm(
+    Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName,
+    FormMethod.Post,
+    new { @class = "commentsForm" }))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary("The following errors must be corrected before submitting the form")
+
+    @Html.Sitecore().FormHandler()
+
+
+    <div class="formField">
+        @Html.LabelFor(m => m.CommentsAuthor)
+        @Html.EditorFor(m => m.CommentsAuthor)
+        @Html.ValidationMessageFor(m => m.CommentsAuthor, "*")
+    </div>
+
+    <div class="formField">
+        @Html.LabelFor(m => m.CommentsText)
+        @Html.EditorFor(m => m.CommentsText)
+        @Html.ValidationMessageFor(m => m.CommentsText, "*")
+    </div>
+
+    <div class="formField">
+        @Html.LabelFor(m => m.CommentsAuthorWebsite)
+        @Html.EditorFor(m => m.CommentsAuthorWebsite)
+        @Html.ValidationMessageFor(m => m.CommentsAuthorWebsite, "*")
+    </div>
+
+
+    <input type="submit" value="Submit" />
+
+}

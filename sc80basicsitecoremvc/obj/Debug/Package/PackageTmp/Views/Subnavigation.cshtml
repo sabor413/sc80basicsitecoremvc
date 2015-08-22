@@ -1,0 +1,14 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<div class="bikes">
+    @foreach (Sitecore.Data.Items.Item curitem in @Html.Sitecore().CurrentItem.Children)
+    {
+        <li>
+            <a href="@Sitecore.Links.LinkManager.GetItemUrl(curitem)">@Html.Sitecore().Field("Heading", curitem)</a>
+        </li>
+    }
+</div>

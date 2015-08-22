@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://sc80basicsitecore/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/28/2015 12:10:54</publishTime>
+    </File>
+    <File Include="bin/sc80basicsitecoremvc.dll">
+      <publishTime>07/29/2015 17:32:54</publishTime>
+    </File>
+    <File Include="bin/sc80basicsitecoremvc.pdb">
+      <publishTime>07/29/2015 17:32:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/28/2015 12:10:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/28/2015 12:10:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/28/2015 12:10:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/28/2015 12:10:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/28/2015 12:10:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>07/28/2015 12:10:54</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/28/2015 12:09:38</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/28/2015 12:10:57</publishTime>
+    </File>
+    <File Include="Views/CommentForm/Index.cshtml">
+      <publishTime>07/29/2015 11:26:54</publishTime>
+    </File>
+    <File Include="Views/CommentList.cshtml">
+      <publishTime>07/29/2015 17:26:47</publishTime>
+    </File>
+    <File Include="Views/FeaturedBike.cshtml">
+      <publishTime>07/29/2015 17:44:09</publishTime>
+    </File>
+    <File Include="Views/Introduction.cshtml">
+      <publishTime>07/28/2015 17:04:10</publishTime>
+    </File>
+    <File Include="Views/Main.cshtml">
+      <publishTime>07/29/2015 11:23:16</publishTime>
+    </File>
+    <File Include="Views/SubmitComment/Index.cshtml">
+      <publishTime>07/29/2015 12:36:13</publishTime>
+    </File>
+    <File Include="Views/Subnavigation.cshtml">
+      <publishTime>07/28/2015 17:56:09</publishTime>
+    </File>
+    <File Include="Views/TripOverview.cshtml">
+      <publishTime>07/28/2015 16:56:38</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>07/28/2015 17:10:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

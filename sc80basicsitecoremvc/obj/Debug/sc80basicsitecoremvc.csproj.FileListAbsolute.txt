@@ -1,0 +1,16 @@
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\sc80basicsitecoremvc.dll
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\sc80basicsitecoremvc.pdb
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\Microsoft.Web.Infrastructure.dll
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.Helpers.dll
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.Razor.dll
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.WebPages.Deployment.dll
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.WebPages.dll
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.WebPages.Razor.dll
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.Helpers.xml
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.Razor.xml
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.WebPages.xml
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.WebPages.Deployment.xml
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\bin\System.Web.WebPages.Razor.xml
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\obj\Debug\sc80basicsitecoremvc.dll
+c:\users\carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\obj\Debug\sc80basicsitecoremvc.pdb
+C:\Users\Carlos\documents\visual studio 2013\Projects\sc80basicsitecoremvc\sc80basicsitecoremvc\obj\Debug\sc80basicsitecoremvc.csprojResolveAssemblyReference.cache

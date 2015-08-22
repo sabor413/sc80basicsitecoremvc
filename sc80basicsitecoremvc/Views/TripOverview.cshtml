@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+@using Sitecore.Mvc;
+
+    <!-- THIS IS THE TRIP OVERVIEW SECTION --> 
+<div class="indentedSection">
+    <table>
+       <tr>    
+          <th>Date</th>
+          <td>@Html.Sitecore().Field("Start Date", new { @format="d" })</td>
+       </tr>
+       <tr>
+          <th>Price per  person</th>
+          <td>$ @Html.Sitecore().Field("Price Per Person")</td>
+       </tr>
+    </table>
+</div>
+<!-- END -->

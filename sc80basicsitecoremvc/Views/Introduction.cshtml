@@ -1,0 +1,14 @@
+﻿@{
+    Layout = null;
+}
+
+@using Sitecore.Mvc;
+
+<div class="indentedSection content">
+    <!-- HEADING -->
+    <h1>@Html.Sitecore().Field("Heading")</h1>
+    <!-- MAIN IMAGE -->
+    @Html.Sitecore().Field("Main Image", new { @class = "right" })
+    <!-- MAIN CONTENT -->
+    @Html.Sitecore().Field("Main Content")
+</div>

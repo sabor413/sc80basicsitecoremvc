@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@model RenderingModel
+
+<div class="indentedSection">
+    <h3>Comments</h3>
+    @foreach (Sitecore.Data.Items.Item curChild in Model.Item.GetChildren()) //.Where(x => x.TemplateID == new Sitecore.Data.TemplateID(new Sitecore.Data.ID("58D31EF1-714F-4FAD-A918-CC679F72B0E0"))))
+    {
+        <p>@curChild.Name</p>
+        <p><strong>@Html.Sitecore().Field("Comment Author", curChild)</strong></p>
+        <p>@Html.Sitecore().Field("Comment Text", curChild)</p>
+        <p>@Html.Sitecore().Field("Comment Author Website", curChild)</p>
+    }
+
+</div>

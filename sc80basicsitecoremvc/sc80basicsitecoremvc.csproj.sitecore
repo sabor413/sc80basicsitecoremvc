@@ -1,0 +1,23 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="sc80basicsitecore" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+  <File Include="Views\Main.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{388A4136-1720-4812-BFF0-C983CDEFECCC}</Item>
+  </File>
+  <File Include="Views\Introduction.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{44C16D19-7354-4079-8355-1806B037E8D1}</Item>
+  </File>
+  <File Include="Views\TripOverview.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{05A5ACDF-002A-40F3-81A6-6B6E57E59F0A}</Item>
+  </File>
+  <File Include="Controllers\CommentFormController.cs" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{17E32C9C-52D7-438E-B9CA-33970D785AA7}</Item>
+  </File>
+  <File Include="Views\CommentList.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8868CE73-2A72-4D60-8366-80595B374AD0}</Item>
+  </File>
+  <File Include="Views\FeaturedBike.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{BD9A3B66-B0FB-4D46-A59D-46E1F1476E5D}</Item>
+  </File>
+</Project>

@@ -1,0 +1,11 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@model RenderingModel
+
+<div class='indentedSection widget fill @Model.Rendering.Parameters["CssClass"]'>
+    <div class="indentedSectionInner">
+        <h2>@Html.Sitecore().Field("Heading", Model.Item)</h2> <!-- Heading field -->
+        @Html.Sitecore().Field("Main Image", Model.Item, new { mw = 240 }) <!-- Main Image field -->
+        <p>@Html.Sitecore().Field("Main Content", Model.Item)</p> <!-- Main Content field -->
+    </div>
+</div>
